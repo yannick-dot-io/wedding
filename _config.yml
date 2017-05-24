@@ -1,0 +1,28 @@
+# ----------- CONFIGURABLE START -----------
+title:            "Cloé & Yannick"
+description:      "Braives, 2 septembre 2017"
+url:              http://cloe-et-yannick.be # Site url, without a slash at the end.
+signoff:          "muan" # Your name
+facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
+share:            false # Turn on twitter and facebook share buttons
+
+links:
+  - name:         Accueil
+    url:          /
+    external:     false
+  - name:         La cérémonie civile
+    url:          /ceremonie
+    external:     false
+  - name:         La réception
+    url:          /reception
+    external:     false
+  - name:         Où dormir
+    url:          /dormir
+    external:     false
+# ------------ CONFIGURABLE END ------------
+
+permalink:        /posts/:title
+defaults:
+  - values:
+      layout: "default"
